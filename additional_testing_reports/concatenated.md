@@ -1,11 +1,5 @@
 # Concatenated Report
 
-Generated on Thu Mar  5 02:23:18 CET 2026
-
-
-
----
-
 <!-- Source: reports/report.md -->
 
 # HDFC Analysis Report
@@ -34,17 +28,11 @@ This report consolidates the findings from the Benchmarking, Ablation, and Sensi
     - **Surrogates** provide crucial "validity" checks, penalizing impossible signals.
     - **Reordered Segments** (Wormholes) help distinguish true fractal scaling from simple trends.
 
-## recommendations
+## Recommendations
 - **Adopt HDFC-E** as the primary estimator for biological time series due to its superior accuracy and robustness.
 - **Use Standardized R/S** as a baseline for Random Walk data (fBm, etc.), but ensure input is cumulative. For stationary noise (fGn), disable differencing or use spectral methods.
 
-## Detailed Reports
-- [Benchmarking Study (Macrophages)](studies/datasets/macrophages/benchmarking.md)
-- [Subject Analysis (Macrophages)](studies/datasets/macrophages/macrophages.md)
-- [Standard Methods](standard_methods.md)
 
-
----
 
 <!-- Source: reports/implementations.md -->
 
@@ -209,8 +197,8 @@ These datasets represent ideal mathematical fractals with known theoretical Hurs
 Real-world scientific data used for benchmarking against naturally occurring fractal phenomena.
 
 #### Macrophages
-- **Description**: Trajectories of macrophage cells moving in a medium.
-- **Source**: N. P. O'Connor et al., *Nature Communications* (2021).
+- **Description**: Electrophysiological recordings of control murine macrophage-like cell line J774.A1 in the whole-cell configuration of the patch clamp technique. 
+- **Source**: D. M. Domínguez, M. Marín, M. Camacho, *Macrophage ion currents are fit by a fractional model and therefore are a time series with memory*. Eur. Biophys. J. 38, 457–464 (2009).
 - **Characteristics**: Short, noisy trajectories with varying diffusivity.
 - **Goal**: Test estimator performance on short, real-world biological signals.
 - **ID**: **macrophages**
