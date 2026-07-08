@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.coverage
+.tox
+.nox
+.pytest_cache
+
+# Virtual environments
+.venv
+venv/
+ENV/
+
+# Caches
+.mypy_cache
+.ruff_cache
+
+# Logs
+.logs
+*.log
+
+# Data (Generated/Downloaded)
+data
+
+# OS
+.DS_Store
+
+# Archive
+archive/
+
+# Debug
+debug_output*.txt
+
+
+uv.lock
