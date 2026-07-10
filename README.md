@@ -21,3 +21,5 @@ pip install -r requirements.txt
 
 ## License
 This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+The original macrophage dataset was acquired by researchers at the  Biophysics and Biology of Membranes, Laboratorio de Biofísica, Departamento de Biología, Facultad de Ciencias, Universidad Nacional de Colombia 111321, and can be used according to [Acuerdo 025 2003 of Universidad Nacional de Colombia](https://legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34248)
