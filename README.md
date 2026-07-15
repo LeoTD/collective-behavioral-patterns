@@ -20,6 +20,13 @@ pip install -r requirements.txt
 *   **`additional_testing_reports/`**: Containts reports detailing HDFC's performance across a range of tests, contrasted against other standard methods.
 
 ## License
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use these files except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
 
 The original macrophage dataset was acquired by researchers at the  Biophysics and Biology of Membranes, Laboratorio de Biofísica, Departamento de Biología, Facultad de Ciencias, Universidad Nacional de Colombia 111321, and can be used according to [Acuerdo 025 2003 of Universidad Nacional de Colombia](https://legal.unal.edu.co/rlunal/home/doc.jsp?d_i=34248)
